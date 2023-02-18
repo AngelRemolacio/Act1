@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: font;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&family=Righteous&display=swap');
+
+:root
+{
+--main-color: black;
+--main-color-color: rgb(56, 48, 48);
+--body: whitesmoke;
+
+}
+
+body{
+    font-family: 'M PLUS Rounded 1c', Georgia;
+    background-color: var(--body);
+    /*background: linear-gradient(rgba(0, 0, 0, 0), rgba(48, 70, 180, 0.281));*/
+    background-size: 100%;
+    background-image: url(Assets/finalbg.png);
+
+}
+
+.navbar-brand
+{
+    color: var(--main-color) !important;
+}
+
+.act
+{
+    color: var(--main-color-color) !important;
+    border-bottom: 2px solid var(--main-color);
+}
+
+.navbar ul li a:hover
+{
+    color: var(--main-color-color) !important;
+    border-bottom: 2px solid var(--main-color);
+}
+
+.header
+{   
+    background-color: rgba(255, 255, 255, 0.781);
+    background-size: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.233);
+}
+
+.middle
+{
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle h1
+{
+    font-size: 35px;
+    font-family: 'M PLUS Rounded 1c';
+    text-align: center;
+}
+
+.carousel
+{
+    width:640px; height:360px;
+}
+
+.carousel.inner
+{
+    margin: auto;
+    align-content: center;
+}
